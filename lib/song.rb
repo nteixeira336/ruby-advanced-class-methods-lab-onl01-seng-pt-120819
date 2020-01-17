@@ -50,7 +50,7 @@ class Song
   
   def self.create_from_filename 
     song=self.new 
-    song.name= (name.split("-"))
+    song.name= (name.split("-")[1])
     
 
 end
